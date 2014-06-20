@@ -101,16 +101,15 @@ func main() {
 }
 
 //this works
-//curl -k -d "client_id=414357652140-4alc3lahhqi4fukv4oqqs2ckgbe1ar1q.apps.googleusercontent.com&scope=email profile" https://accounts.google.com/o/oauth2/device/code
-//curl -k -d "client_id=414357652140-4alc3lahhqi4fukv4oqqs2ckgbe1ar1q.apps.googleusercontent.com&client_secret=_X2mjO_9QE4OPwlpb4i0FCZR&code=4/RBszTKB1CDA6_GyKe8mKEV_UMt2Y&grant_type=http://oauth.net/grant_type/device/1.0" https://accounts.google.com/o/oauth2/token
+//curl -k -d "client_id=999.apps.googleusercontent.com&scope=email profile" https://accounts.google.com/o/oauth2/device/code
+//curl -k -d "client_id=999.apps.googleusercontent.com&client_secret=999&code=4/RBszTKB1CDA6_GyKe8mKEV_UMt2Y&grant_type=http://oauth.net/grant_type/device/1.0" https://accounts.google.com/o/oauth2/token
 
-// https://accounts.google.com/o/oauth2/auth?access_type=&approval_prompt=&client_id=414357652140-4alc3lahhqi4fukv4oqqs2ckgbe1ar1q.apps.googleusercontent.com&redirect_uri=oob&response_type=code&scope=email+profile&state=
+// https://accounts.google.com/o/oauth2/auth?access_type=&approval_prompt=&client_id=999.apps.googleusercontent.com&redirect_uri=oob&response_type=code&scope=email+profile&state=
 
-// oauthreq.exe -id=414357652140-4alc3lahhqi4fukv4oqqs2ckgbe1ar1q.apps.googleusercontent.com -scope="email profile" -secret=_X2mjO_9QE4OPwlpb4i0FCZR
+// oauthreq.exe -id=999.apps.googleusercontent.com -scope="email profile" -secret=999
 // Visit this URL to get a code, then run again with -code=YOUR_CODE
 
-// https://accounts.google.com/o/oauth2/auth?access_type=&approval_prompt=&client_id=414357652140-4alc3lahhqi4fukv4oqqs2ckgbe1ar1q.apps.googleusercontent.com&redirect_uri=oob&res
+// https://accounts.google.com/o/oauth2/auth?access_type=&approval_prompt=&client_id=999.apps.googleusercontent.com&redirect_uri=oob&res
 // ponse_type=code&scope=email+profile&state=
 
-// oauthreq.exe -id=414357652140-4alc3lahhqi4fukv4oqqs2ckgbe1ar1q.apps.googleusercontent.com -scope="email profile" -secret=_X2mjO_9QE4OPwlpb4i0FCZR -code
-// =4/sQwpwNdFBLAtwiQ75DIaPzkD2wKk.IugSClGHDzgWaDn_6y0ZQNjWpfd1jQI
+// oauthreq.exe -id=999.apps.googleusercontent.com -scope="email profile" -secret=999 -code=999
