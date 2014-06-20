@@ -114,16 +114,3 @@ func main() {
 
 // oauthreq.exe -id=414357652140-4alc3lahhqi4fukv4oqqs2ckgbe1ar1q.apps.googleusercontent.com -scope="email profile" -secret=_X2mjO_9QE4OPwlpb4i0FCZR -code
 // =4/sQwpwNdFBLAtwiQ75DIaPzkD2wKk.IugSClGHDzgWaDn_6y0ZQNjWpfd1jQI
-// Token is cached in cache.json
-// {
-//  "id": "109550162953405639890",
-//  "email": "chcrowe@gmail.com",
-//  "verified_email": true,
-//  "name": "Chris Rowe",
-//  "given_name": "Chris",
-//  "family_name": "Rowe",
-//  "link": "https://plus.google.com/109550162953405639890",
-//  "picture": "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",
-//  "gender": "male",
-//  "locale": "en"
-// }
